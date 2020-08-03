@@ -6,9 +6,11 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
