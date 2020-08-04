@@ -1,18 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
-import Print from './print';
+import { Link } from 'react-router-dom';
 import giger from '../assets/giger.jpg';
 
 const Container = styled.div`
   margin: 0 auto;
-  width: 90%;
+  width: 70%;
 
   img {
     width: 100%;
   }
 `;
 
-const Test = () => {
+export default function Test() {
   const obj = {
     // first: {
     second: {
@@ -34,11 +34,9 @@ const Test = () => {
 
   return (
     <Container>
-      <Print />
       <h1>this is a text</h1>
+      <Link to="second">Go the the second page</Link>
       <img src={giger} alt="Giger pic" />
     </Container>
   );
-};
-
-export default Test;
+}

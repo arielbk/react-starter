@@ -47,4 +47,10 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
+  resolve: {
+    alias: {
+      Components: path.resolve(__dirname, 'src/components'),
+      Assets: path.resolve(__dirname, 'src/assets'),
+    },
+  },
 };

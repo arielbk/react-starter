@@ -12,8 +12,12 @@ Just writing simple notes for now so I know what I've done. I can come back and 
 
 It will still be necessary to use webpack-dev-middleware to connect to a custom dev server
 
+## Resolver aliases
+
 # ESLint
 
 # Babel
 
 # Styled Components
+
+# Routing
