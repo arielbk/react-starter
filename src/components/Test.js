@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import giger from '../assets/giger.jpg';
+import { sayThis } from 'Utilities/sayThings';
+import giger from 'Assets/giger.jpg';
 
 const Container = styled.div`
   margin: 0 auto;
@@ -13,6 +14,8 @@ const Container = styled.div`
 `;
 
 export default function Test() {
+  sayThis();
+
   const obj = {
     // first: {
     second: {

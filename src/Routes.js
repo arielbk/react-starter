@@ -1,5 +1,7 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+//! hash router is used for static routing
+//! browser router can be used with a server to catch requests
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Routes are codesplit with lazy loading
 const TestPage = lazy(() => import('Components/Test'));
