@@ -15,7 +15,11 @@ module.exports = {
     ],
     ['@babel/preset-react'],
   ],
-  plugins: ['@babel/proposal-optional-chaining'],
+  plugins: [
+    'styled-components',
+    '@babel/proposal-optional-chaining',
+    '@babel/proposal-nullish-coalescing-operator',
+  ],
 
   env: {
     // production env
