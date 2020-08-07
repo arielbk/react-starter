@@ -1,28 +1,36 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
 import { sayThis } from 'Utilities/sayThings';
 import giger from 'Assets/giger.jpg';
+import LanguagePicker from 'Components/LanguagePicker';
 
 const Container = styled.div`
   margin: 0 auto;
   width: 70%;
 
   img {
-    width: 100%;
+    display: block;
+    margin: 2rem auto;
+    width: 80%;
   }
 `;
 
 export default function Test() {
+  // i18n translate function
+  const { t } = useTranslation();
+
   sayThis();
 
   const obj = {
-    // first: {
-    second: {
-      third: 42,
-      another: 0,
+    first: {
+      second: {
+        third: 42,
+        another: 0,
+      },
     },
-    // },
   };
 
   // an example of tc39 proposal optional chaining (transpiled with Babel)
@@ -37,8 +45,9 @@ export default function Test() {
 
   return (
     <Container>
-      <h1>this is a text</h1>
-      <Link to="second">Go the the second page</Link>
+      <h1>{t('title.home')}</h1>
+      <LanguagePicker />
+      <Link to="second">{t('link.second')}</Link>
       <img src={giger} alt="Giger pic" />
     </Container>
   );

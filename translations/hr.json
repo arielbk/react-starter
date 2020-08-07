@@ -1,0 +1,11 @@
+{
+  "link": {
+    "home": "Idi doma",
+    "second": "Idi druga stranica"
+  },
+  "title": {
+    "home": "Bok!",
+    "notfound": "Ništa",
+    "second": "Druga"
+  }
+}

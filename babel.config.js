@@ -16,6 +16,14 @@ module.exports = {
     ['@babel/preset-react'],
   ],
   plugins: [
+    [
+      'i18next-extract',
+      {
+        outputPath: 'translations/{{locale}}.json',
+        locales: ['en', 'de', 'hr'],
+        discardOldKeys: true,
+      },
+    ],
     'styled-components',
     '@babel/proposal-optional-chaining',
     '@babel/proposal-nullish-coalescing-operator',

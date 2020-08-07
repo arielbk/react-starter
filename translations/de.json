@@ -1,0 +1,11 @@
+{
+  "link": {
+    "home": "Nach hause",
+    "second": "Zweite Seite"
+  },
+  "title": {
+    "home": "Hallo!",
+    "notfound": "Die Seite war nicht gefunden",
+    "second": "Andere Seite"
+  }
+}

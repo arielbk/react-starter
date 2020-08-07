@@ -1,0 +1,11 @@
+{
+  "link": {
+    "home": "Go home",
+    "second": "Second page"
+  },
+  "title": {
+    "home": "Hello!",
+    "notfound": "That page wasn't found",
+    "second": "The other page"
+  }
+}
