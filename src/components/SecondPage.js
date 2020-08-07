@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 const Container = styled.div`
@@ -12,10 +13,11 @@ const Container = styled.div`
 `;
 
 export default function SecondPage() {
+  const { t } = useTranslation();
   return (
     <Container>
-      <h1>The second page</h1>
-      <Link to="/">Go home</Link>
+      <h1>{t('second.title')}</h1>
+      <Link to="/">{t('links.home')}</Link>
     </Container>
   );
 }

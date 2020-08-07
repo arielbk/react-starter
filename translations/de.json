@@ -1,0 +1,12 @@
+{
+  "home": {
+    "greeting": "Hallo!"
+  },
+  "links": {
+    "home": "Zuhause",
+    "second": "Zweite Seite"
+  },
+  "second": {
+    "title": "Andere Seite"
+  }
+}

@@ -2,6 +2,10 @@ import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
+import en from '../translations/en.json';
+import de from '../translations/de.json';
+import hr from '../translations/hr.json';
+
 // this dep would be used to fetch translations stored on BE
 // here we will just store them as a static json file
 // import Backend from 'i18next-http-backend';
@@ -37,5 +41,10 @@ i18n
       bindI18n: 'languageChanged',
     },
   });
+
+// using json files here to load translations
+i18n.addResourceBundle('en', 'translations', en);
+i18n.addResourceBundle('de', 'translations', de);
+i18n.addResourceBundle('hr', 'translations', hr);
 
 export default i18n;

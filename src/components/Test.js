@@ -43,10 +43,9 @@ export default function Test() {
 
   return (
     <Container>
-      <h1>this is a text</h1>
-      <p>{t('hello')}</p>
+      <h1>{t('home.greeting')}</h1>
       <LanguagePicker />
-      <Link to="second">Go the the second page</Link>
+      <Link to="second">{t('links.second')}</Link>
       <img src={giger} alt="Giger pic" />
     </Container>
   );
