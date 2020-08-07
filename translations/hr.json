@@ -1,12 +1,11 @@
 {
-  "home": {
-    "greeting": "Doma"
-  },
-  "links": {
+  "link": {
     "home": "Idi doma",
-    "second": "Druga stranica"
+    "second": "Idi druga stranica"
   },
-  "second": {
-    "title": "Druga stranica"
+  "title": {
+    "home": "Bok!",
+    "notfound": "Ništa",
+    "second": "Druga"
   }
 }

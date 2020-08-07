@@ -12,7 +12,9 @@ const Container = styled.div`
   width: 70%;
 
   img {
-    width: 100%;
+    display: block;
+    margin: 2rem auto;
+    width: 80%;
   }
 `;
 
@@ -43,9 +45,9 @@ export default function Test() {
 
   return (
     <Container>
-      <h1>{t('home.greeting')}</h1>
+      <h1>{t('title.home')}</h1>
       <LanguagePicker />
-      <Link to="second">{t('links.second')}</Link>
+      <Link to="second">{t('link.second')}</Link>
       <img src={giger} alt="Giger pic" />
     </Container>
   );

@@ -1,12 +1,11 @@
 {
-  "home": {
-    "greeting": "Hello!"
-  },
-  "links": {
+  "link": {
     "home": "Go home",
     "second": "Second page"
   },
-  "second": {
-    "title": "Other page"
+  "title": {
+    "home": "Hello!",
+    "notfound": "That page wasn't found",
+    "second": "The other page"
   }
 }

@@ -29,7 +29,6 @@ i18n
     // have a translations namespace used everywhere in the app
     ns: ['translations'],
     defaultNS: 'translations',
-    keySeparator: false, // we use content as keys
 
     interpolation: {
       escapeValue: false, // not needed for React
