@@ -21,3 +21,11 @@ It will still be necessary to use webpack-dev-middleware to connect to a custom 
 # Styled Components
 
 # Routing
+
+## Lazy loading
+
+# i18n
+
+## react-i18n
+
+## babel extractor
